@@ -1,0 +1,25 @@
+{
+  "name": "recaptcha_v2",
+  "version": "0.0.1",
+  "description": "verify google recaptcha version 2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trquoccuong/node-recaptcha.git"
+  },
+  "keywords": [
+    "recaptchav2",
+    "recaptcha",
+    "google",
+    "node"
+  ],
+  "author": "Tran Quoc Cuong <trquoccuong@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trquoccuong/node-recaptcha/issues"
+  },
+  "homepage": "https://github.com/trquoccuong/node-recaptcha#readme"
+}
