@@ -1,7 +1,9 @@
-#Node-Recaptcha
+Node-Recaptcha
+
 >Node modules support Google ReCAPTCHA
 
-##How to use
+How to use
+
 On browser :
 
 ```
@@ -24,10 +26,11 @@ app.use("/test",function(req,res){
     
     captcha.verify(function(err,done){
         if(err) {
-           res.send(err)
-        } else {
-           res.send("verify")
-        }        
+           return res.send(err)
+        } 
+        if(done) {
+           // recaptcha verified
+        }      
     });
 })
 
